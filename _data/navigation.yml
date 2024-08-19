@@ -7,4 +7,4 @@
 - name: Portfolio
   link: /static/portfolio.html
 - name: Blog
-  link: /static/blog.html
+  link: static/blog.html
