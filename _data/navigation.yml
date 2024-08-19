@@ -2,3 +2,7 @@
   link: /
 - name: About
   link: /static/about.html
+- name: Resume
+  link: /static/resume.html
+- name: Portfolio
+  link: /static/projects/portfolio.html
