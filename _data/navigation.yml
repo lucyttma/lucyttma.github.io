@@ -5,6 +5,6 @@
 - name: Resume
   link: /static/resume.html
 - name: Portfolio
-  link: /static/projects/portfolio.html
+  link: /static/_projects/projects.html
 - name: Blog
   link: /blog.html
