@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<h2>{{ page.position }}</h2>
+
+{{ content }}
+
+<h2>Posts</h2>
+<ul>
+  {% assign filtered_posts = site.posts | where: 'project', page.type %}
+  {% for project in filtered_projects %}
+    <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+  {% endfor %}
+</ul>
