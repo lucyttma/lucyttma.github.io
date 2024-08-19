@@ -4,7 +4,7 @@
   link: /static/about.html
 - name: Resume
   link: /static/resume.html
-- name: Portfolio
+- name: Projects
   link: /static/_projects/projects.html
 - name: Blog
   link: /blog.html
