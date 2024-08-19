@@ -1,7 +1,7 @@
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 collections:
-  projects:
+  portfolio:
     output: true
 
 defaults:
