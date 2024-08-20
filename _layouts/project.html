@@ -4,4 +4,12 @@ layout: default
 <h1>{{ page.name }}</h1>
 <h2>{{ page.position }}</h2>
 
+<p>
+  {{ page.date | date_to_string }}
+  {% assign org = site.organizations | where: 'organization', page.organizations | first %}
+  {% if org %}
+    - <a href="{{ org.url }}">{{ org.name }}</a>
+  {% endif %}
+</p>
+
 {{ content }}
