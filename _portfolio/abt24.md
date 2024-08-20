@@ -2,6 +2,7 @@
 name: GMI Project (Feasibility Review)
 position: Summer Intern at Abbott Hematology
 time: Summer 2024
+organization: Abbott
 ---
 
 In the summer of 2024, I had the opportunity to work as an intern at Abbott Hematology in Santa Clara, California. As part of the On-Market Engineering team, I was focused on sustaining engineering for the Abbott Alinity h-series instruments.
