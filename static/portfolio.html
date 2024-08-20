@@ -7,8 +7,8 @@ title: Portfolio
 <ul>
   {% for project in site.portfolio %}
     <li>
-      <h2>{{ project.title | markdownify }}</h2>
-      <h3>{{ project.position | markdownify }}</h3>
+      <p>{{ project.name | markdownify }}</p>
+      <p>{{ project.position | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>
