@@ -1,5 +1,5 @@
 ---
-title: GMI Project: Feasibility Review
+name: GMI Project: Feasibility Review
 position: Summer Intern at Abbott Hematology
 time: Summer 2024
 ---
