@@ -5,8 +5,8 @@ layout: default
 <h2>{{ page.position }}</h2>
 
 <p>
-  {{ page.date | date_to_string }}
-  {% assign org = site.organizations | where: 'organization', page.organizations | first %}
+  <strong> TESTING </strong>
+  {% assign org = site.organizations | where: 'org', page.organization | first %}
   {% if org %}
     - <a href="{{ org.url }}">{{ org.name }}</a>
   {% endif %}
