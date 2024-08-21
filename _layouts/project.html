@@ -6,10 +6,8 @@ layout: default
 
 <p>
   <strong> TESTING </strong>
-  {% assign org = site.organizations | where: 'org', page.organization | first %}
-  {% if org %}
-    - <a href="{{ org.url }}">{{ org.name }}</a>
-  {% endif %}
+  <a href="{{ organization.url }}">{{ page.organization }}</a>
 </p>
+
 
 {{ content }}
