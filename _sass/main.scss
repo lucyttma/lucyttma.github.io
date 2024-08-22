@@ -2,8 +2,10 @@
   color: green;
 }
 
-<meta name="font:Title" content="Brutal Type"/>
-<meta name="font:Body" content="Sofia Pro"/>
-<meta name="color:Masthead text and links" content="{TitleColor}"/>
-<meta name="color:Body text" content="#313131"/>
-<meta name="image:Background" content=""/>
+body {
+   background-color:#d1d1d1;
+   font-family:'Gibson’, sans-serif;
+   font-size: 11px;
+   color:#006f94;
+}
+
