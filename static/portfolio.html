@@ -14,8 +14,10 @@ title: Portfolio
 
 <div>
   {% for project in site.portfolio %}
+      <div>
       <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
       <h3>{{ project.position }} // {{project.organization}} </h3>
       <p>{{ project.content | markdownify }}</p>
+      </div>
   {% endfor %}
 </div>
