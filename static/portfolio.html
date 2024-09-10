@@ -2,19 +2,11 @@
 layout: default
 title: Portfolio
 ---
-<style>
-.div-1 {
-  background-color: blue; 
-  height: 50px;
-  width: 50px;
-}
-</style>
-
 <h1>Portfolio</h1>
 
 <ul>
   {% for project in site.portfolio %}
-      <div class="div-1" >
+      <div class="div-portfolio" >
         <p> test2 </p>
         <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
         <h3>{{ project.position }} // {{project.organization}} </h3>
