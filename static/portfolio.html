@@ -3,19 +3,19 @@ layout: default
 title: Portfolio
 ---
 <style>
-  .div {
-    padding: 10px;
-    border: 10px solid gray;
-    margin: 0;
-  }
+.div-1 {
+  background-color: blue; 
+  height: 50px;
+  width: 50px;
+}
 </style>
 
 <h1>Portfolio</h1>
 
 <ul>
   {% for project in site.portfolio %}
-      <div>
-        <p> test </p>
+      <div class="div-1" >
+        <p> test2 </p>
         <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
         <h3>{{ project.position }} // {{project.organization}} </h3>
         <p>{{ project.content | markdownify }}</p>
