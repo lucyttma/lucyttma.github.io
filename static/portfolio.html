@@ -12,7 +12,7 @@ title: Portfolio
 
 <h1>Portfolio</h1>
 
-<div>
+<ul>
   {% for project in site.portfolio %}
       <div>
         <p> test </p>
@@ -21,4 +21,4 @@ title: Portfolio
         <p>{{ project.content | markdownify }}</p>
       </div>
   {% endfor %}
-</div>
+</ul>
