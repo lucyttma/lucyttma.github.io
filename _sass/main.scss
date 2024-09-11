@@ -49,16 +49,17 @@ body {
   right:50px;
 }
 
+.ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+
 .div-portfolio{
-  display: inline-block;
-  width: 40%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  margin-left: 0px;
   background-color: #ffffff;
   padding: 20px;
-  margin-top: 20px;
   .h2 {
     color: #415a77;
     text-align:left;
