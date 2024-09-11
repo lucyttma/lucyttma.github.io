@@ -5,9 +5,9 @@
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: #1b263b;
   .h1 {
-    color: #415a77;
+    color: white;
     font-weight:bold;
     letter-spacing:2px;
   }
@@ -16,14 +16,14 @@
  /* The navbar container */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #1b263b;
 }
 
 /* Navbar links */
 .topnav a {
-  float: left;
+  float: center;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,7 +31,7 @@
 
 /* Links - change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #778da9;
   color: black;
 } 
 
