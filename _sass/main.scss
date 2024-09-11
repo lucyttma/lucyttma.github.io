@@ -9,7 +9,7 @@
   text-align: center;
   background: #1b263b;
   .h1 {
-    color: white;
+    color: #ffffff;
     font-weight:bold;
     letter-spacing:2px;
   }
@@ -25,8 +25,8 @@
 
 /* Navbar links */
 .topnav a {
-  float: center;
-  display: block;
+  text-align:center;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
