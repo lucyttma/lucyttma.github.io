@@ -5,13 +5,17 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/resume.css">
   </head>
-
-  <div class="topnav">
-    {% include navigation.html %}
-  </div>
   
-  <body>
+ <body>
+    <div class="header">
+      <h1 style="font-size:20px; color:#ffffff; font-weight:bold;"> LUCY MA </h1>
+    </div>
+    
+    <div class="topnav">
+      {% include navigation.html %}
+    </div>
+    
     {{ content }}
+    
   </body>
 </html>
-
