@@ -15,6 +15,15 @@
   }
 }
 
+.sidebar {
+   position:fixed;
+   right:10px;
+   top:0px;
+   height:30%;
+   width:270px;
+   background:#000;
+}
+
 body {
   background-color: #eff0f9;
   font-family: 'Helvetica', 'sans-serif';
