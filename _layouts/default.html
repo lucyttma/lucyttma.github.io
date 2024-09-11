@@ -1,17 +1,19 @@
 <!doctype html>
 <html>
-
-  <div class="header">
+  <head>
     <meta charset="utf-8">
-    <title>{ page.title }</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-  </div>
-
-  <div class="topnav">
-    {% include navigation.html %}
-  </div>
+  </head>
 
   <body>
+    <div class="header">
+      <title>{ page.title }</title>
+    </div>
+    <div class="topnav">
+      {% include navigation.html %}
+    </div>
+    
     {{ content }}
   </body>
 </html>
