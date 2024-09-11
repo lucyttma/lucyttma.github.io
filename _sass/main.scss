@@ -49,12 +49,18 @@ body {
   right:50px;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 .ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   padding-left: 0;
+  justify-content: space-between;
 }
 
 .div-portfolio{
