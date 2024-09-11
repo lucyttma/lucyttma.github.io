@@ -3,6 +3,8 @@
 }
 
 .header {
+  left:0px;
+  right:0px;
   padding: 30px;
   text-align: center;
   background: #1b263b;
@@ -15,6 +17,8 @@
 
  /* The navbar container */
 .topnav {
+  left:0px;
+  right:0px;
   overflow: hidden;
   background-color: #1b263b;
 }
@@ -41,6 +45,7 @@ body {
   font-size: 12px;
   position:absolute;
   left:150px;
+  right:150px;
 }
 
 .div-portfolio{
