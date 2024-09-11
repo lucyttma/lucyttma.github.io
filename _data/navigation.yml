@@ -1,10 +1,15 @@
 - name: Home
   link: /
+<!-- 
 - name: About
-  link: /static/about.html
+  link: /static/about.html 
+  -->
 - name: Resume
   link: /static/resume.html
 - name: Portfolio
   link: /static/portfolio.html
+
+<--
 - name: Blog
   link: /static/blog.html
+-->
