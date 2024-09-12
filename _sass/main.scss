@@ -54,6 +54,18 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+.home_grid {
+  display: grid;
+  grid-template-columns: 30% 1fr; 
+}
+
+.div-hcard {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 5px;
+  max-width: 500px;
+}
+
 .ul {
   display: flex;
   flex-direction: row;
