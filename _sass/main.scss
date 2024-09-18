@@ -127,3 +127,20 @@ body {
     letter-spacing:1px;    
   }
 }
+.proj-photo-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.proj-photo{
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+  }
+  font-size: 12px;
+}
