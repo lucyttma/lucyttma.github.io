@@ -58,6 +58,10 @@ body {
   grid-template-columns: 75% 1fr;
 }
 
+.home_wrapper_left {
+  grid-template-rows: auto auto;
+}
+
 .home_wrapper_top {
   display: grid;
   grid-template-columns: 70% 1fr;
