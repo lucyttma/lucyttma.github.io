@@ -55,7 +55,15 @@ body {
 
 .home_grid {
   display: grid;
-  grid-template-columns: 25% 1fr;
+  grid-template-columns: 75% 1fr;
+}
+
+.home_wrapper_top {
+  grid-template-columns: 70% 1fr;
+}
+
+.home_wrapper_lower {
+  grid-template-columns: 55% 1fr;
 }
 
 .div-hcard {
@@ -63,8 +71,9 @@ body {
   padding: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  margin: 20px;
-  border-radius: 15px 50px 30px;
+  margin: 10px;
+  border-radius: 15px;
+  min-width: 300px;
   img {
     width: 80%;
     height: auto;
