@@ -54,13 +54,16 @@ body {
 }
 
 .home_grid {
-  display: grid;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
   left: 100px;
-  right: 100px;
-  grid-template-columns: 70% 1fr;
+  right: 100px;  
 }
 
 .home_wrapper_left {
+  width: 65%;
+  display: grid;
   grid-template-rows: auto auto;
 }
 
