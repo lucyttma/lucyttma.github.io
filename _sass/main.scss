@@ -48,7 +48,7 @@ nav {
 }
 
 body {
-  background-color: #eff0f9;
+  background-color: #ffffff;
   font-family: 'Helvetica', 'sans-serif';
   font-size: 14px;
   position:absolute;
@@ -75,7 +75,7 @@ body {
 
 .home_wrapper_right {
   right: 10%;
-  background-color: #ffffff;
+  background-color: #eff0f9;
   padding: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -98,7 +98,7 @@ body {
 
 .div-hcard {
   vertical-align: center;
-  background-color: #ffffff;
+  background-color: #eff0f9;
   padding: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -110,10 +110,20 @@ body {
     margin: auto;
     border-radius: 15px;
   }
+  h1 {
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    text-decoration-color: #778da9;
+  }
+  h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #778da9;   
+  }
 }
 
 .div-portfolio{
-  background-color: #ffffff;
+  background-color: #eff0f9;
   padding: 20px;
   margin: 5px;
   max-width: 500px;
@@ -141,6 +151,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .proj-photo{
   background-color: #ffffff;
   padding: 20px;
