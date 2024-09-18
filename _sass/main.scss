@@ -59,10 +59,12 @@ body {
 }
 
 .home_wrapper_top {
+  display: grid;
   grid-template-columns: 70% 1fr;
 }
 
 .home_wrapper_lower {
+  display: grid;
   grid-template-columns: 55% 1fr;
 }
 
