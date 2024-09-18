@@ -13,7 +13,6 @@
 }
 
 .header {
-  margin-left:20px;
   background: #1b263b;
   float: left;
   h1 {
@@ -47,7 +46,7 @@ nav {
 }
 
 body {
-  background-color: #eff0f9;
+  background-color: #ffffff;
   font-family: 'Helvetica', 'sans-serif';
   font-size: 14px;
   position:absolute;
@@ -60,17 +59,19 @@ body {
   grid-template-columns: 80% 1fr; 
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
-}
-
 h3 {
   color: #415a77;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: underline;
   text-decoration-thickness: 8px;
   text-decoration-color: #778da9;
 }
 
-
+.resume-section {
+  background-color: #eff0f9;
+  padding: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
