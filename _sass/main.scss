@@ -8,19 +8,19 @@
   right:0px;
   overflow: hidden;
   background-color: #1b263b;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
-  display: inline-block;
-  left:20px;
-  right:0px;
-  padding: 0px;
+  margin-left:20px;
   background: #1b263b;
   float: left;
   h1 {
     color: #ffffff;
     font-weight:bold;
     letter-spacing:2px;
+    font-size:30px; 
   }
 }
 
@@ -39,12 +39,17 @@
 .topnav a:hover {
   background-color: #778da9;
   color: black;
-} 
+}
+
+nav {
+  align-items: center;
+  display: flex;
+}
 
 body {
   background-color: #eff0f9;
   font-family: 'Helvetica', 'sans-serif';
-  font-size: 12px;
+  font-size: 14px;
   position:absolute;
   left:50px;
   right:50px;
