@@ -2,14 +2,14 @@
   color: #006f94;
 }
 
- /* The navbar container */
-.topnav {
+ .topnav {
   left:0px;
   right:0px;
   overflow: hidden;
   background-color: #1b263b;
   display: flex;
   justify-content: space-between;
+  border-radius: 15px;
 }
 
 .header {
@@ -20,7 +20,7 @@
     color: #ffffff;
     font-weight:bold;
     letter-spacing:2px;
-    font-size:30px; 
+    font-size:25px; 
   }
 }
 
@@ -67,5 +67,10 @@ h1 {
 
 h3 {
   color: #415a77;
-  font-size: 14px;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-thickness: 8px;
+  text-decoration-color: #778da9;
 }
+
+
