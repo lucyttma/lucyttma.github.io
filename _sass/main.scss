@@ -11,10 +11,12 @@
 }
 
 .header {
-  left:0px;
+  display: inline-block;
+  left:20px;
   right:0px;
   padding: 0px;
   background: #1b263b;
+  float: left;
   h1 {
     color: #ffffff;
     font-weight:bold;
@@ -55,20 +57,18 @@ body {
 
 .home_grid {
   display: grid;
-  padding-left: 20%;
-  padding-right: 20%;
   grid-auto-rows: 1fr
 }
 
 .home_wrapper_left {
-  left: 300px;
+  left: 10%;
   width: 65%;
   display: grid;
   grid-template-rows: auto auto;
 }
 
 .home_wrapper_right {
-  right: 300px;
+  right: 10%;
 }
 
 .home_wrapper_top {
