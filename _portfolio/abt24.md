@@ -3,6 +3,7 @@ name: GMI Project (Feasibility Review)
 position: Summer Intern at Abbott Hematology
 time: Summer 2024
 organization: Abbott
+excerpt: I've interned with Abbott for 4 summers. This most recent summer, I was an Operations Intern at Abbott Hematology in Santa Clara, CA. During this internship, I worked with the Alinity h-series hematology analyzers on a variety of projects.
 ---
 
 <p>I've interned with Abbott for 4 summers. This most recent summer, I was an Operations Intern at Abbott Hematology in Santa Clara, CA. During this internship, I worked with the Alinity h-series hematology analyzers on a variety of projects.</p>
