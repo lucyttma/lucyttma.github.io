@@ -167,10 +167,10 @@ body {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* For mobile phones: */
   .home_grid {
     display: grid;
-    grid-auto-rows: 1fr 1fr;  
+    grid-auto-columns: 1fr;  
   }
 }
