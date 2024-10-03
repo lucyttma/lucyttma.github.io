@@ -10,20 +10,19 @@ excerpt: For Homecoming in senior year, I led the class volunteer team to constr
 
 <div class="proj-photo-wrapper">
   <div class="proj-photo">
-    <img src="../../assets/images/float_cad.png" alt="Concept Art of the Senior Float" style="place-self: center;">
-    <p> Initial concept sketch of the senior float. </p>  
-  </div>
-  
-  <div class="proj-photo">
-    <img src="../assets/images/float_cad2.png" alt="Construction of the float." style="place-self: center;">
-    <p> Final assembly of float components at the school. </p>  
-  </div>
-  
-  <div class="proj-photo">
     <img src="../../assets/images/float_concept.jpg" alt="Concept Art of the Senior Float" style="place-self: center;">
     <p> Initial concept sketch of the senior float. </p>  
   </div>
-
+  
+  <div class="proj-photo">
+    <img src="../../assets/images/float_cad.png" alt="Float CAD" style="place-self: center;">
+    <p> Float CAD. </p>  
+  </div>
+  
+  <div class="proj-photo">
+    <img src="../assets/images/float_cad2.png" alt="Comparison of CAD." style="place-self: center;">
+    <p> Comparison of the CAD with a model of the lunar lander. </p>  
+  </div>
 </div>
  
 <p>Over the course of just under two months, the I lead the volunteer team in designing and constructing the body of our senior float. The goal was to create a 1:2 wooden replica of the Lunar Module that towered above the underclassmen, striking fear and awe into their hearts. We designed all the components in CAD before assembling the wooden pieces and panels. Upon completion, the float was over 10' tall, featured a motorized opening hatch (to reveal an intrepid explorer inside), and speakers and LED lights to accentuate the exhaust plume.</p>
